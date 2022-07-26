@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rainfo-wc/static/css/main.f308477c.css",
-    "main.js": "/rainfo-wc/static/js/main.7922c7c5.js",
+    "main.js": "/rainfo-wc/static/js/main.8d51f4a9.js",
     "static/js/787.b396298b.chunk.js": "/rainfo-wc/static/js/787.b396298b.chunk.js",
     "index.html": "/rainfo-wc/index.html",
     "main.f308477c.css.map": "/rainfo-wc/static/css/main.f308477c.css.map",
-    "main.7922c7c5.js.map": "/rainfo-wc/static/js/main.7922c7c5.js.map",
+    "main.8d51f4a9.js.map": "/rainfo-wc/static/js/main.8d51f4a9.js.map",
     "787.b396298b.chunk.js.map": "/rainfo-wc/static/js/787.b396298b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f308477c.css",
-    "static/js/main.7922c7c5.js"
+    "static/js/main.8d51f4a9.js"
   ]
 }
