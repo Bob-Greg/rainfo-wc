@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rainfo-wc/static/css/main.3c3a4435.css",
+    "main.js": "/rainfo-wc/static/js/main.3e445a2f.js",
+    "static/js/787.b396298b.chunk.js": "/rainfo-wc/static/js/787.b396298b.chunk.js",
+    "index.html": "/rainfo-wc/index.html",
+    "main.3c3a4435.css.map": "/rainfo-wc/static/css/main.3c3a4435.css.map",
+    "main.3e445a2f.js.map": "/rainfo-wc/static/js/main.3e445a2f.js.map",
+    "787.b396298b.chunk.js.map": "/rainfo-wc/static/js/787.b396298b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c3a4435.css",
+    "static/js/main.3e445a2f.js"
+  ]
+}
