@@ -1,13 +1,21 @@
-import {ChangeEvent, useState} from "react";
+import {ChangeEvent, CSSProperties, useState} from "react";
 
 export type TextBoxProps = {
     defaultText:string
-    className:string
+    className:string | undefined
     onChange:(_:string) => void
+    style: CSSProperties | undefined
 }
 
-export const TextBox = (props:TextBoxProps) => {
+export type TextBoxProps1 = {
+    defaultText:string
+    className:string | undefined
+    onChange:(_:string) => void
+    style: CSSProperties | undefined
+    dataType: string
+}
 
+export const TextBox = (props:TextBoxProps | TextBoxProps1) => {
     const [text, setText] = useState(props.defaultText)
 
     function change(ev:ChangeEvent<HTMLInputElement>) {
@@ -16,14 +24,13 @@ export const TextBox = (props:TextBoxProps) => {
     }
 
     return (
-        <div>
-            <input
-                type="text"
-                value={text}
-                onChange={change}
-                onFocus={event => event.currentTarget.select()}
-                className={`${props.className}`}
-            />
-        </div>
+        <input
+            type={(props as unknown as TextBoxProps1).dataType ? (props as TextBoxProps1).dataType : "text"}
+            value={text}
+            onChange={change}
+            onFocus={event => event.currentTarget.select()}
+            className={`${props.className}`}
+            style={props.style}
+        />
     )
 }
